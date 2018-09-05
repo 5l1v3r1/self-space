@@ -4,7 +4,8 @@ import ftplib
 
 vfiles = ""
 loggedin = False
-session = ftplib.FTP('192.168.3.132', 'Maanav', 'root')
+#enter FTP server credentials to access server
+session = ftplib.FTP('<IP>', '<Username>', '<Password>')
 login = {'Maanav': 'jeff', 'Parth': 'mouse'}
 user = ''
 
